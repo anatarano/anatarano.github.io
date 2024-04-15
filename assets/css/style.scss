@@ -1,3 +1,7 @@
 @import "{{ site.theme }}";
-$font-family-base: Helvetica, Arial, sans-serif, -apple-system;
-$font-family-heading: "Playfair Display", serif, -apple-system;
+@font-face {
+    font-family: F16;
+    src: url("../../SubSkipper/F16_Panel Font.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
