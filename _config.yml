@@ -1,4 +1,4 @@
 title: Ana M. Tárano's Portfolio Website
 description: Check out my projects!
 logo: 
-remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
