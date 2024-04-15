@@ -1,1 +1,8 @@
 @import "{{ site.theme }}";
+@charset "UTF-8";
+:root {
+  --font-family-base: "DM Sans", sans-serif;
+  --font-family-heading: "DM Sans", sans-serif;
+  --font-family-monospace: "Fira Mono", monospace;
+  --font-family-logo: "DM Sans", sans-serif;
+}
