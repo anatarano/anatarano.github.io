@@ -769,7 +769,7 @@ boulder_df.plot()
 
 
     
-![png](Get-Started-with-Open-Reproducible-Science_files/Get-Started-with-Open-Reproducible-Science_31_1.png)
+![png](assignment2/Get-Started-with-Open-Reproducible-Science_31_1.png)
     
 
 
@@ -810,7 +810,7 @@ boulder_df.plot(
 
 
     
-![png](Get-Started-with-Open-Reproducible-Science_files/Get-Started-with-Open-Reproducible-Science_33_1.png)
+![png](assignment2/Get-Started-with-Open-Reproducible-Science_33_1.png)
     
 
 
@@ -1563,7 +1563,7 @@ climate_1983_2023_mean.plot(
 
 
     
-![png](Get-Started-with-Open-Reproducible-Science_files/Get-Started-with-Open-Reproducible-Science_46_1.png)
+![png](assignment2/Get-Started-with-Open-Reproducible-Science_46_1.png)
     
 
 
