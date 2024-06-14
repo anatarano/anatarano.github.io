@@ -1,6 +1,7 @@
 ---
 ---
-@import "mmistakes/jekyll-theme-basically-basic@1.4.5";
+
+@import "{{ site.theme }}";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 body {
     font-family: 'Roboto', sans-serif;
