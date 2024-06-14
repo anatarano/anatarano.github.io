@@ -6,5 +6,5 @@ I advance rigorous and creative human-centered machine learning that addresses c
 
 [ESIIL Assignment 2](notebooks/Get-Started-with-Open-Reproducible-Science.md)
 
-[Test](Test bf7f2ec78cb64d249c498e682e218e4a.md)
+[Test](Test.md)
 
