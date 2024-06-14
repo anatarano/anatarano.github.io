@@ -1,4 +1,3 @@
-# Ana M. Tárano
 * [LinkedIn](https://www.linkedin.com/in/anatarano/)
 * [GitHub](https://github.com/anatarano/)
 * [Email](anatarano@gmail.com)
