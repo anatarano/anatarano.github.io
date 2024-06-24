@@ -1,5 +1,8 @@
 # title: Ana M. Tárano's Portfolio Website
-description: Check out my projects!
+description: * [LinkedIn](https://www.linkedin.com/in/anatarano/)
+* [GitHub](https://github.com/anatarano/)
+* [Email](anatarano@gmail.com)
+
 logo: 
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
