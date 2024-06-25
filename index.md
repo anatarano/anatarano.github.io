@@ -13,4 +13,4 @@ Bus Stop Resource Hub
 [Test](Test.md)
 
 ## Inspirations
-<zero-md src="Cultural-Thread.md"></zero-md>
+<zero-md src="/Cultural-Thread.md"></zero-md>
