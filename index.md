@@ -1,12 +1,12 @@
 # 📰 What have I been up to?
-## [Environmental Data Science Innovation and Inclusion Lab (ESIIL) Data Short Course 2024](https://cu-esiil-edu.github.io/2024-data-short-course/)
+## Environmental Data Science Innovation and Inclusion Lab (ESIIL) Data Short Course 2024 [🔗](https://cu-esiil-edu.github.io/2024-data-short-course/)
 April - May 2024
 
 **Cloud Computing, Collaboration, and Communication**
 
 [ESIIL Assignment 2: Open Reproducible Science](notebooks/Get-Started-with-Open-Reproducible-Science.md)
 
-## [Catalyst Miami Community Leadership on the Environment, Advocacy, and Resilience (CLEAR)](https://www.catalystmiami.org/clear)
+## Catalyst Miami Community Leadership on the Environment, Advocacy, and Resilience (CLEAR) [🔗](https://www.catalystmiami.org/clear)
 February - April 2024
 ### Bus Stop Resource Hub
 
