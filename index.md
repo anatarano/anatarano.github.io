@@ -10,7 +10,7 @@ This year's short course was called: **Cloud Computing, Collaboration, and Commu
 
 February - April 2024
 
-This 10-week CLEAR program provided us with the groundwork to become climate justice educators, leaders, and innovators in our own communities and beyond using a Miami lens. We developed a deep and intersectional understanding of climate science, local climate change threats, and solutions. At the end of this leadership program, we worked in teams to propose our own community resilience project. See what I worked on below.
+This 10-week program provided us with the groundwork to become climate justice educators, leaders, and innovators in our own communities and beyond. We developed a deep and intersectional understanding of climate science, local climate change threats, and solutions. At the end of this leadership program, we worked in teams to propose our own community resilience project. See what I worked on below.
 
 ### Bus Stop Resource Hub
 
