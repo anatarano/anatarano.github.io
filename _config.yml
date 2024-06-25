@@ -4,6 +4,10 @@ description:
 linkedin_username: anatarano
 # * [GitHub](https://github.com/anatarano/)
 # * [Email](anatarano@gmail.com)
+author :
+  name : Ana M. Tarano
+  email : anatarano@gmail.com
+  github : anatarano
 
 logo: 
 remote_theme: pages-themes/minimal@v0.2.0
