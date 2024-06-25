@@ -1,16 +1,16 @@
-# 📰 What have I been up to?
-## Environmental Data Science Innovation and Inclusion Lab (ESIIL) Data Short Course 2024 [🔗](https://cu-esiil-edu.github.io/2024-data-short-course/)
-April - May 2024
+# 📰 Recent Projects
+## Environmental Data Science Innovation and Inclusion Lab (ESIIL): Data Short Course 2024 [🔗](https://cu-esiil-edu.github.io/2024-data-short-course/)
+April - June 2024
 
-This year's short course was called: **Cloud Computing, Collaboration, and Communication**. We learned how to incorporate GitHub (GitHub Classroom, GitHub Codespaces, and GitHub Pages) and Python (pandas, GeoPandas, rioxarray, matplotlib, folium) into our curriculum and existing research model. At the end of the data short course, we applied these lessons to our own research interests. See what I worked on below.
+This year's short course was called: **Cloud Computing, Collaboration, and Communication**. We learned how to incorporate GitHub (GitHub Classroom, GitHub Codespaces, and GitHub Pages) and Python (pandas, GeoPandas, rioxarray, matplotlib, folium) into our curriculum and existing research model. We applied these lessons to our own research interests. See what I worked on below.
 
 [ESIIL Assignment 2: Open Reproducible Science](notebooks/Get-Started-with-Open-Reproducible-Science.md)
 
-## Catalyst Miami Community Leadership on the Environment, Advocacy, and Resilience (CLEAR) [🔗](https://www.catalystmiami.org/clear)
+## Catalyst Miami: Community Leadership on the Environment, Advocacy, and Resilience (CLEAR) [🔗](https://www.catalystmiami.org/clear)
 
 February - April 2024
 
-This 10-week CLEAR program provided us with the groundwork to become climate justice educators, leaders, and innovators in our own communities and beyond with a Miami lens. We developed a deep and intersectional understanding of climate science, local climate change threats, and solutions. At the end of this leadership program, we worked in teams to propose our own community resilience project.
+This 10-week CLEAR program provided us with the groundwork to become climate justice educators, leaders, and innovators in our own communities and beyond using a Miami lens. We developed a deep and intersectional understanding of climate science, local climate change threats, and solutions. At the end of this leadership program, we worked in teams to propose our own community resilience project. See what I worked on below.
 
 ### Bus Stop Resource Hub
 
