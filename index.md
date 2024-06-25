@@ -13,4 +13,11 @@ Bus Stop Resource Hub
 [Test](Test.md)
 
 ## Inspirations
-<zero-md src="Cultural-Thread.md"></zero-md>
+<zero-md src="[https://anatarano.github.io/notebooks/Get-Started-with-Open-Reproducible-Science.md">
+  <!-- Wrap `style` tags inside `template` -->
+  <template data-append>
+    <style>
+      p { color: red; }
+    </style>
+  </template>
+</zero-md>
