@@ -14,7 +14,7 @@ February - April 2024
 
 This 10-week program provided us with the groundwork to become climate justice educators, leaders, and innovators in our own communities and beyond. We developed a deep and intersectional understanding of climate science, local climate change threats, and solutions. At the end of this leadership program, we worked in teams to propose our own community resilience project. See what I worked on below.
 
-### Reimagining Bus Stops as Resilience Hubs in Miami
+### Reimagining Bus Stops as Resilience Hubs in Miami:
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTrg3dPrLhSUYGXc8l3A3F8_KWrAhyXXPq85QXr_UEHfXr5kd5sUh-ew4ziUXWpni_XUy0xA9TuckCD/embed?start=true&loop=true&delayms=3000" frameborder="0" width="360" height="225" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
