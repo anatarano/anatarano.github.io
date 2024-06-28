@@ -1,6 +1,8 @@
 # 📰 Recent Projects
 ## Environmental Data Science Innovation and Inclusion Lab: Data Short Course 2024 [🔗](https://cu-esiil-edu.github.io/2024-data-short-course/)
+<span style="color:#35514F">
 April - June 2024
+</span>
 
 This year's short course was called: **Cloud Computing, Collaboration, and Communication**. We learned how to incorporate GitHub (GitHub Classroom, GitHub Codespaces, and GitHub Pages) and Python (pandas, GeoPandas, rioxarray, matplotlib, folium) into our curriculum and existing research model. We applied these lessons to our own research interests and our educational programs. See what I worked on below.
 
@@ -10,7 +12,9 @@ This year's short course was called: **Cloud Computing, Collaboration, and Commu
 
 ## Catalyst Miami: Community Leadership on the Environment, Advocacy, and Resilience [🔗](https://www.catalystmiami.org/clear)
 
+<span style="color:#35514F">
 February - April 2024
+</span>
 
 This 10-week program provided us with the groundwork to become climate justice educators, leaders, and innovators in our own communities and beyond. We developed a deep and intersectional understanding of climate science, local climate change threats, and solutions. At the end of this leadership program, we worked in teams to propose our own community resilience project. See what I worked on below.
 
