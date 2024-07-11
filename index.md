@@ -1,3 +1,7 @@
+## 🚧 This website is under construction. 🚧
+
+Thank you for your patience!
+
 # 📰 Recent Projects
 ## Environmental Data Science Innovation and Inclusion Lab: Data Short Course 2024 [🔗](https://cu-esiil-edu.github.io/2024-data-short-course/)
 <span style="color:#35514F">
