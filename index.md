@@ -31,11 +31,11 @@ This 10-week program provided us with the groundwork to become climate justice e
 ---
 
 # 🎓 Education
-Ph.D. in Aeronautics and Astronautics, 2020, Stanford University, Stanford, CA
+Ph.D. in Aeronautics and Astronautics, 2020, Stanford University
 
-M.S. in Aeronautics and Astronautics, 2015, Stanford University, Stanford, CA
+M.S. in Aeronautics and Astronautics, 2015, Stanford University
 
-B.S. in Aeronautics and Astronautics, 2014, Stanford University, Stanford, CA
+B.S. in Aeronautics and Astronautics, 2014, Stanford University
 
 # 💼 Previous Work
 
