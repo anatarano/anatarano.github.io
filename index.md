@@ -2,6 +2,8 @@
 
 Thank you for your patience!
 
+---
+
 # 📰 Recent Projects
 ## Environmental Data Science Innovation and Inclusion Lab: Data Short Course 2024 [🔗](https://cu-esiil-edu.github.io/2024-data-short-course/)
 <span style="color:#35514F">
@@ -27,6 +29,13 @@ This 10-week program provided us with the groundwork to become climate justice e
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTrg3dPrLhSUYGXc8l3A3F8_KWrAhyXXPq85QXr_UEHfXr5kd5sUh-ew4ziUXWpni_XUy0xA9TuckCD/embed?start=true&loop=true&delayms=3000" frameborder="0" width="360" height="225" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ---
+
+# 🎓 Education
+Ph.D. in Aeronautics and Astronautics, 2020, Stanford University, Stanford, CA
+
+M.S. in Aeronautics and Astronautics, 2015, Stanford University, Stanford, CA
+
+B.S. in Aeronautics and Astronautics, 2014, Stanford University, Stanford, CA
 
 # 💼 Previous Work
 
