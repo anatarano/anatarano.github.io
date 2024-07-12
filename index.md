@@ -37,5 +37,7 @@ M.S. in Aeronautics and Astronautics, 2015, Stanford University
 
 B.S. in Aeronautics and Astronautics, 2014, Stanford University
 
+---
+
 # 💼 Previous Work
 
