@@ -41,3 +41,12 @@ B.S. in Aeronautics and Astronautics, 2014, Stanford University
 
 # 💼 Previous Work
 
+--- 
+
+# 🎤 Recent Presentations
+* **Tárano, A.M.**, Chirayath, V., Purkis, S., Xi, H. and Bakker, A. (2023). [Evaluating Global Benthic Habitat Maps Derived from Machine Learning: NASA’s Neural Multimodal Observation and Training Network](https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1439429). Presented at American Geophysical Union Fall Meeting, 11-15 Dec. 2023 San Francisco, CA.
+* **Tárano, A.M.**, Shaner, A.J., Shupla, C.B., Buxner, S., Rivera-Valentin, E.G., LeMer, J., King, J., Kriescher, D., and Valdes, Y. (2023). [Extending the Planetary ReaCH Towards Miami with SCoPE: Embracing Local Assets for Informal Education of NASA-based Planetary Science](https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1444721). Presented at American Geophysical Union Fall Meeting, 11-15 Dec. 2023 San Francisco, CA.
+* **Tárano, A.M.**, Chirayath, V., Couch, C., Oliver, T., and Purkis, S. (2023). [Informing coral reef resilience-based management through prediction of individual coral organismal growth, recruitment, and mortality (PICOGRAM)](https://cce.nasa.gov/meeting_2023/BDEC_Agenda_Presentations.pdf?). Presented at NASA Biodiversity and Ecological Forecasting Team Meeting, 8-9 May 2023 College Park, MD.
+*  **Tárano, A.M.**, Chirayath, V., Segal-Rozenhaimer, M., and Purkis, S. (2022). [Toward Global Coral Resilience and Biodiversity Assessments Using NASA NeMO-Net and Fluid Lensing](https://agu.confex.com/agu/fm22/meetingapp.cgi/Paper/1183553). Presented at American Geophysical Union Fall Meeting, 12-16 Dec. 2022 Chicago, IL.
+*  **Tárano, A.M.**, Chirayath, V., Couch, C., and Oliver, T. (2022). [Informing coral reef resilience-based management through prediction of individual coral organismal growth, recruitment, and mortality (PICOGRAM)](https://cce.nasa.gov/biodiversity/meeting_2022/agenda.html). Presented at NASA Biodiversity and Ecological Forecasting Team Meeting, 20-22 Sept. 2022 College Park, MD.
+
