@@ -48,6 +48,17 @@ B.S. in Aeronautics and Astronautics, 2014, Stanford University
   
 --- 
 
+# 📢 Publications
+
+* Bakker, A. C., Gleason, A., Dempsey, A., Bachman, S., Burdick, D., Tárano, ; A. M., Chirayath, V., Purkis, S. (Submitted) Remotely Sensed Spectral Variability Predicts Reef Fish Diversity. Ecological Indicators.
+* _Interactive AI "Performance"_: Newsome, R. (Lead Artist), Symons, J. (Producer), & Tárano, A.M. (Project Manager). (2024, January). [Being (The Digital Griot)](https://festival.sundance.org/program/film/656e092aa0d82d9a2eabf6ef). Sundance Film Festival's New Frontier section. Park City; Utah. 
+* _Interactive AI "Performance"_: Newsome, R. (Lead Artist), Symons, J. (Documentary Producer), & Tárano, A.M. (Project Manager). (2022, February-March). [Being (The Digital Griot)](https://www.armoryonpark.org/index.php/programs_events/detail/assembly). Assembly at Park Avenue Armory. New York; New York. 
+* Tárano, A. M. (2020). [Automated Inference of Impacting Asteroids' Physical Properties and Motion](https://www.proquest.com/openview/365b15727ac4c0d5ca6c5f3c89b3df9d/1?pq-origsite=gscholar&cbl=18750&diss=y). Stanford University.
+* Tárano, A. M., Wheeler, L. F., Close, S., & Mathias, D. L. (2019). [Inference of meteoroid characteristics using a genetic algorithm](https://www.sciencedirect.com/science/article/pii/S0019103518305669). Icarus, 329, 270-281.
+* Aftosmis, M. J., Mathias, D. L., & Tarano, A. M. (2019). [Simulation-based height of burst map for asteroid airburst damage prediction](https://www.sciencedirect.com/science/article/pii/S0094576517315229). Acta Astronautica, 156, 278-283.
+  
+--- 
+
 # 🎤 Recent Presentations
 * **Tárano, A.M.**, Chirayath, V., Purkis, S., Xi, H. and Bakker, A. (2023). [Evaluating Global Benthic Habitat Maps Derived from Machine Learning: NASA’s Neural Multimodal Observation and Training Network](https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1439429). Presented at American Geophysical Union Fall Meeting, 11-15 Dec. 2023 San Francisco, CA.
 * **Tárano, A.M.**, Shaner, A.J., Shupla, C.B., Buxner, S., Rivera-Valentin, E.G., LeMer, J., King, J., Kriescher, D., and Valdes, Y. (2023). [Extending the Planetary ReaCH Towards Miami with SCoPE: Embracing Local Assets for Informal Education of NASA-based Planetary Science](https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1444721). Presented at American Geophysical Union Fall Meeting, 11-15 Dec. 2023 San Francisco, CA.
