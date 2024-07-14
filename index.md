@@ -40,7 +40,10 @@ B.S. in Aeronautics and Astronautics, 2014, Stanford University
 ---
 
 # 💼 Previous Work
-
+* Senior Research Associate III, University of Miami, 06/2022-01/2024
+* Project Manager, Stanford University’s Institute for Human-Centered Artificial Intelligence, 11/2021-06/2022
+* Research Associate, Science and Technology Corporation at NASA Ames, 06/2016-08/2020
+* Course Assistant for Spacecraft Design and Laboratory, Stanford University, 03/2016-06/2016
 --- 
 
 # 🎤 Recent Presentations
