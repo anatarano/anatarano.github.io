@@ -40,10 +40,12 @@ B.S. in Aeronautics and Astronautics, 2014, Stanford University
 ---
 
 # 💼 Previous Work
+
 * Senior Research Associate III, University of Miami, 06/2022-01/2024
 * Project Manager, Stanford University’s Institute for Human-Centered Artificial Intelligence, 11/2021-06/2022
 * Research Associate, Science and Technology Corporation at NASA Ames, 06/2016-08/2020
 * Course Assistant for Spacecraft Design and Laboratory, Stanford University, 03/2016-06/2016
+  
 --- 
 
 # 🎤 Recent Presentations
@@ -53,3 +55,20 @@ B.S. in Aeronautics and Astronautics, 2014, Stanford University
 *  **Tárano, A.M.**, Chirayath, V., Segal-Rozenhaimer, M., and Purkis, S. (2022). [Toward Global Coral Resilience and Biodiversity Assessments Using NASA NeMO-Net and Fluid Lensing](https://agu.confex.com/agu/fm22/meetingapp.cgi/Paper/1183553). Presented at American Geophysical Union Fall Meeting, 12-16 Dec. 2022 Chicago, IL.
 *  **Tárano, A.M.**, Chirayath, V., Couch, C., and Oliver, T. (2022). [Informing coral reef resilience-based management through prediction of individual coral organismal growth, recruitment, and mortality (PICOGRAM)](https://cce.nasa.gov/biodiversity/meeting_2022/agenda.html). Presented at NASA Biodiversity and Ecological Forecasting Team Meeting, 20-22 Sept. 2022 College Park, MD.
 
+---
+
+# 🏆 Awards
+* NASA Group Achievement Award, 2023, "in appreciation of [NASA Science Activation program] dedicated service to NASA from the Science Mission Directorate."
+* AGU NASA SciAct Affiliate, 2023, from NASA SMD Community of Practice for Education.
+* Early Career Researcher Grant, 2023, from University of Miami Institute for Data Science and Computing.
+* Seed Grant Award, 2022, for project "Extending the Planetary ReaCH Towards Miami" by NASA SMD Community of Practice for Education.
+* Engineer of the Future Leadership Award, 2020, from Straubel Foundation "to support high-achieving individuals in their pursuit of education".
+* ASSU Champion Advocate Award, 2019, from Associated Students of Stanford University (ASSU) "for [my] advocacy for overlooked communities and uplifting voices of others".
+* Community Impact Award, 2019, from Stanford Alumni Association for having "fostered a sense of belonging and inspired enthusiasm among fellow grad students, enhancing the Stanford community through their exemplary leadership of a student organization, creation of an event or program, or other unique campus contribution".
+* NASA Group Achievement Award, 2018, for Asteroid Threat Assessment Project "for advancing state-of-the-art in asteroid threat assessment to enable effective national survey and response planning".
+* NASA Ames Honor Award, 2017, for "contributions to the Near-Earth Objects (NEO) impact risk assessment team".
+* Outstanding Poster Award, 2017, for Stanford University Opportunity Job Fair.
+* Sharon Kay Stanaway Summer Doctoral Fellowship, 2016, from Stanford University's Aeronautics and Astronautics Department.
+* Enhancing Diversity in Graduate Education Doctoral Fellowship, 2016, from Stanford University.
+* USNC-URSI North American Radio Science Meeting Travel Fellowship Grant Award, 2016.
+* Dean’s Packard Diversity Fellowship, 2014-2015, from Stanford University's School of Engineering.
