@@ -4,6 +4,10 @@ Thank you for your patience!
 
 ---
 
+Dr. Ana M. Tárano is an Assistant Research Professor at Arizona State University (ASU), conducting research on geospatial Machine Learning (geoML) for food security applications. Before joining ASU, Tárano was a Senior Research Associate III at the University of Miami, where she applied geoML for shallow-marine habitat mapping using remotely sensed multispectral imagery. As a passionate educator and designer, she extended the NASA Planetary ReaCH engagement model with art and the design thinking framework as a 2022 NASA SCoPE Seed Grant Awardee. Before her time at the University of Miami, Tárano implemented design thinking in applying machine learning in a unique public-facing, real-time context as Project Manager for a conversational Artificial Intelligence (AI), a collaboration with interdisciplinary artist Rashaad Newsome and Stanford’s Human-Centered AI. Tárano received her Ph.D. in Aeronautics and Astronautics from Stanford University. Her Ph.D. research improved asteroid modeling using physics-based simulations, statistical analysis, optimization, and machine learning. This work was funded by NASA's Asteroid Threat Assessment Project (ATAP) at NASA's Advanced Supercomputing Division. Her contributions to NASA's ATAP were recognized by NASA's Group Achievement Award and NASA Ames Honor Award. Her extensive aerospace engineering experience ranges from leading Stanford's CubeSat QB50 Discovery to studying space radiation effects on astronauts at NASA Space Radiation Lab.
+
+---
+
 # 📰 Recent Projects
 ## Environmental Data Science Innovation and Inclusion Lab: Data Short Course 2024 [🔗](https://cu-esiil-edu.github.io/2024-data-short-course/)
 <span style="color:#35514F">
