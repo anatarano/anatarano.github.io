@@ -20,9 +20,9 @@ April - June 2024
 
 This year's short course was called: **Cloud Computing, Collaboration, and Communication**. We learned how to incorporate GitHub (GitHub Classroom, GitHub Codespaces, and GitHub Pages) and Python (pandas, GeoPandas, rioxarray, matplotlib, folium) into our curriculum and existing research model. We applied these lessons to our own research interests and our educational programs. See what I worked on below.
 
-[comment]: ### South Florida Urban Heat Island Effect: 
+[comment]: < ### South Florida Urban Heat Island Effect: >
 
-[comment]: [ESIIL Assignment 2: Open Reproducible Science](notebooks/Get-Started-with-Open-Reproducible-Science.md)
+[comment]: <[ESIIL Assignment 2: Open Reproducible Science](notebooks/Get-Started-with-Open-Reproducible-Science.md)>
 
 ## Catalyst Miami: Community Leadership on the Environment, Advocacy, and Resilience [🔗](https://www.catalystmiami.org/clear)
 
