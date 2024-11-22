@@ -58,7 +58,7 @@ B.S. in Aeronautics and Astronautics, 2014, Stanford University
 
 # 📢 Publications
 
-* Bakker, A. C., Gleason, A., Dempsey, A., Bachman, S., Burdick, D., Tárano, ; A. M., Chirayath, V., Purkis, S. (Submitted) Remotely Sensed Spectral Variability Predicts Reef Fish Diversity. Ecological Indicators.
+* Bakker, A. C., Gleason, A., Dempsey, A., Bachman, S., Burdick, D., Tárano, ; A. M., Chirayath, V., Purkis, S. (2024). [Remotely Sensed Spectral Variability Predicts Reef Fish Diversity](https://www.sciencedirect.com/science/article/pii/S1470160X24012809). Ecological Indicators, 169, 112823.
 * _Interactive AI "Performance"_: Newsome, R. (Lead Artist), Symons, J. (Producer), & Tárano, A.M. (Project Manager). (2024, January). [Being (The Digital Griot)](https://festival.sundance.org/program/film/656e092aa0d82d9a2eabf6ef). Sundance Film Festival's New Frontier section. Park City; Utah. 
 * _Interactive AI "Performance"_: Newsome, R. (Lead Artist), Symons, J. (Documentary Producer), & Tárano, A.M. (Project Manager). (2022, February-March). [Being (The Digital Griot)](https://www.armoryonpark.org/index.php/programs_events/detail/assembly). Assembly at Park Avenue Armory. New York; New York. 
 * Tárano, A. M. (2020). [Automated Inference of Impacting Asteroids' Physical Properties and Motion](https://www.proquest.com/openview/365b15727ac4c0d5ca6c5f3c89b3df9d/1?pq-origsite=gscholar&cbl=18750&diss=y). Stanford University.
