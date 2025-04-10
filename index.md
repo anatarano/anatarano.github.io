@@ -13,6 +13,17 @@ Tárano received her Ph.D. in Aeronautics and Astronautics from Stanford Univers
 ---
 
 # 📰 Recent Projects
+## Maui Nui Crop Monitor
+<style type="text/css">
+            .display_archive {font-family: arial,verdana; font-size: 12px;}
+          .campaign {line-height: 125%; margin: 5px;}
+          </style>
+          <script
+            language="javascript"
+            src="https://github.us13.list-manage.com/generate-js/?u=de2a137d36d49d49f7925fcf0&show=10&fid=15374"
+            type="text/javascript"
+          ></script>
+          
 ## Environmental Data Science Innovation and Inclusion Lab: Data Short Course 2024 [🔗](https://cu-esiil-edu.github.io/2024-data-short-course/)
 <span style="color:#35514F">
 April - June 2024
