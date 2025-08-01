@@ -8,8 +8,15 @@ Tárano received her Ph.D. in Aeronautics and Astronautics from Stanford Univers
 
 # 📰 Recent Projects
 ## Maui Nui Crop Monitor
-[Drought Issue (Part 1)](maui_nui_crop_monitor/june_issue.html)
-[Deer Issue!](maui_nui_crop_monitor/march_issue.html)
+[💧 Drought Issue (Part 1)](maui_nui_crop_monitor/june_issue.html)
+
+[🦌 Deer Issue!](maui_nui_crop_monitor/march_issue.html)
+
+[🌧️ January Storm Impacts Issue](maui_nui_crop_monitor/feb_issue.html)
+
+[🌧️ Welehu Rainfall Issue](maui_nui_crop_monitor/dec_issue.html)
+
+[🌱 Soil Moisture Issue](maui_nui_crop_monitor/nov_issue.html)
           
 ## Environmental Data Science Innovation and Inclusion Lab: Data Short Course 2024 [🔗](https://cu-esiil-edu.github.io/2024-data-short-course/)
 <span style="color:#35514F">
