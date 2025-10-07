@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Honopou Stream — Water Year Cups (USGS live)</title>
+  <title>Honopou Stream — Water Year Cups (USGS live + mean)</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.2/p5.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
     body { margin:0; background:#0b1220; color:#e8eefc; font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;}
-    #wrap { max-width:800px; margin:24px auto 48px; padding:0 16px; }
+    #wrap { max-width:1100px; margin:24px auto 48px; padding:0 16px; }
     canvas { border-radius:12px; box-shadow:0 10px 30px rgba(0,0,0,.35); }
     .row { display:flex; gap:12px; align-items:center; margin:12px 0 6px; flex-wrap:wrap;}
     button, select { background:#172038; color:#e8eefc; border:1px solid #30406a; border-radius:10px; padding:8px 12px; font-size:14px; cursor:pointer; }
@@ -33,11 +33,12 @@
     </label>
     <div class="legend">
       <div class="key"><span class="swatch" style="background:#5cb0ff"></span> Highest</div>
+      <div class="key"><span class="swatch" style="background:#40e0d0"></span> Mean (Normal)</div>
       <div class="key"><span class="swatch" style="background:#e8e8e8"></span> 2025 (Current)</div>
       <div class="key"><span class="swatch" style="background:#ff934f"></span> Lowest</div>
     </div>
   </div>
-  <div class="muted" id="siteMeta">Source: USGS Waterservices Daily Values API (site 16587000, parameter 00060). Units are cumulative million ft³ per water year (Oct 1–Sep 30).</div>
+  <div class="muted" id="siteMeta">USGS 16587000 • Cumulative million ft³ per water year (Oct 1–Sep 30)</div>
   <div id="p5-holder" style="margin-top:10px;"></div>
 </div>
 
@@ -46,21 +47,21 @@
 const SITE = '16587000';   // Honopou Stream near Huelo, Maui
 const PARAM = '00060';     // discharge, ft³/s
 const WY = 2025;           // water year
-const HIST_YEARS = [1914, 1981, 2010, 2015, 2019, 2022, 2023, 2024];
+const HIST_YEARS = [1914, 1981];
 
-const COLORS = ['#5cb0ff', '#e8e8e8', '#ff934f']; // Highest, Current, Lowest
-const TITLES = ['Highest (1981)','2025 (Observed)','Lowest (1914)'];
+const COLORS = ['#5cb0ff', '#40e0d0', '#e8e8e8', '#ff934f']; // Highest, Current, Lowest, mean
+const TITLES = ['Highest (1914)','Mean (Normal)','2025 (Observed)','Lowest (1981)'];
 const BG = '#0b1220', PANEL = '#0f1628', RIM = '#7e8bb6', GRID = '#243255';
 
 /* ================== STATE ================== */
-let W=1000,H=560;
+let W=800,H=600;
 let cups=[], labels=[], raw=null;
 let globalMax=1;
 let t=0, playing=false, speedMult=1;
 let siteInfo = { name: '', site: SITE, lat: null, lon: null, tz: '' };
 let monthTicks = [];
 
-/* ========== USGS helpers ========== */
+/* ========== Helpers ========== */
 const fmt = (d) => d.toISOString().slice(0,10);
 function wyRange(year){
   return {
@@ -68,11 +69,21 @@ function wyRange(year){
     end:   fmt(new Date(`${year}-09-30T00:00:00Z`))
   };
 }
+function md(dateStr){ return dateStr.slice(5,10); } // "YYYY-MM-DD" -> "MM-DD"
+
+async function fetchJSON(url){
+  const r = await fetch(url);
+  if(!r.ok){
+    const text = await r.text().catch(()=> '');
+    throw new Error(`Fetch failed ${r.status}: ${r.statusText} ${text}`);
+  }
+  return r.json();
+}
+
+/* ========== USGS Daily Values ========== */
 async function fetchDVRaw(site, startISO, endISO){
   const url=`https://waterservices.usgs.gov/nwis/dv/?format=json&sites=${site}&parameterCd=${PARAM}&startDT=${startISO}&endDT=${endISO}`;
-  const r=await fetch(url);
-  if(!r.ok) throw new Error(`USGS fetch failed ${r.status}: ${r.statusText}`);
-  return r.json();
+  return fetchJSON(url);
 }
 function parseDV(json){
   const ts = json?.value?.timeSeries?.[0];
@@ -90,6 +101,46 @@ function cfsToCumMcf(dailies){
   const SEC_PER_DAY=86400; let cum=0; const out=[];
   for(const d of dailies){ cum+=(d.cfs??0)*SEC_PER_DAY; out.push(cum/1e6); }
   return out;
+}
+
+/* ========== USGS observationNormals (mean) ========== */
+/** Fetch daily mean normals for parameter 00060. Returns Map("MM-DD" -> Number cfs). */
+async function fetchNormalsmean(monitoringId = `USGS-${SITE}`, param = PARAM){
+  const base = 'https://api.waterdata.usgs.gov/statistics/v0/observationNormals';
+  const qs = new URLSearchParams({
+    approval_status: 'approved',
+    computation_type: 'arithmetic_mean',
+    country_code: 'US',
+    mime_type: 'application/json',
+    monitoring_location_id: monitoringId,
+    page_size: '1000'
+  });
+  const url = `${base}?${qs.toString()}`;
+  const json = await fetchJSON(url);
+
+  const features = json?.features ?? [];
+  if(!features.length) throw new Error('No features in normals response');
+
+  const dataBlocks = features[0]?.properties?.data ?? [];
+  const block = dataBlocks.find(d => d.parameter_code === param);
+  if(!block) throw new Error('No matching parameter_code in normals');
+
+  const days = block.values.filter(v => v.time_of_year_type === 'day_of_year');
+  const map = new Map();
+  for(const row of days){
+    map.set(row.time_of_year, Number(row.value));
+  }
+  return map;
+}
+
+/** Map normals (cfs) to this WY’s daily labels and integrate to cumulative Mft³. */
+function meanSeriesForWaterYear(labels, normalsByMD){
+  const daily = labels.map(d => {
+    const key = md(d);
+    const cfs = normalsByMD.get(key);
+    return { date:d, cfs: Number.isFinite(cfs) ? cfs : 0 };
+  });
+  return cfsToCumMcf(daily);
 }
 
 /* ---- Stats from subset of years ---- */
@@ -117,22 +168,15 @@ function buildMonthTicksFromLabels(lbls){
   return ticks;
 }
 
-/* ========== p5 setup ========== */
+/* ========== p5 setup/draw ========== */
 async function setup(){
   const c=createCanvas(W,H); c.parent('p5-holder'); frameRate(60);
 
-  // Hook up UI
-  document.getElementById('playBtn').onclick = () => {
-    playing = !playing;
-    document.getElementById('playBtn').textContent = playing ? '⏸ Pause' : '▶ Play';
-  };
-  // Restart button
-document.getElementById('restartBtn').onclick = () => {
-  t = 0;
-  playing = true;
-  document.getElementById('playBtn').textContent = '⏸ Pause';
-};
-
+  // UI
+  const playBtn = document.getElementById('playBtn');
+  const restartBtn = document.getElementById('restartBtn');
+  playBtn.onclick = () => { playing = !playing; playBtn.textContent = playing ? '⏸ Pause' : '▶ Play'; };
+  restartBtn.onclick = () => { t = 0; playing = true; playBtn.textContent = '⏸ Pause'; };
   document.getElementById('speedSel').onchange=(e)=>speedMult=parseFloat(e.target.value);
 
   try{
@@ -165,17 +209,33 @@ document.getElementById('restartBtn').onclick = () => {
     const stats=perDayStats(histCum);
     const n=Math.min(curCum.length,stats.n);
 
+    // mean normals → cumulative
+    let meanCum = [];
+    try{
+      const normals = await fetchNormalsmean(`USGS-${SITE}`, PARAM);
+      meanCum = meanSeriesForWaterYear(labels.slice(0,n), normals);
+    }catch(err){
+      console.warn('Normals mean fetch/parse failed:', err);
+      meanCum = Array(n).fill(NaN);
+    }
+
     raw={
       highest:stats.highest.slice(0,n),
       current:curCum.slice(0,n),
-      lowest: stats.lowest.slice(0,n)
+      lowest: stats.lowest.slice(0,n),
+      mean: meanCum.slice(0,n)
     };
-    globalMax=Math.max(...raw.highest);
+    globalMax = Math.max(
+      ...raw.highest,
+      ...raw.current.filter(Number.isFinite),
+      ...raw.lowest.filter(Number.isFinite),
+      ...raw.mean.filter(Number.isFinite)
+    );
     monthTicks = buildMonthTicksFromLabels(labels.slice(0,n));
 
     // auto-play once loaded
     playing=true;
-    document.getElementById('playBtn').textContent='⏸ Pause';
+    playBtn.textContent='⏸ Pause';
   }catch(e){
     console.warn("USGS fetch failed",e);
   }
@@ -191,8 +251,11 @@ function draw(){
   drawHeader();
 
   const i=Math.min(Math.floor(t),raw.current.length-1);
-  const vals=[raw.highest[i], raw.current[i], raw.lowest[i]];
-  for (let k=0;k<3;k++){ drawCup(cups[k], vals[k]/globalMax, COLORS[k], TITLES[k], vals[k]); }
+  const vals=[raw.highest[i], raw.mean[i], raw.current[i], raw.lowest[i]];
+  for (let k=0;k<4;k++){
+    const v = vals[k];
+    drawCup(cups[k], (Number.isFinite(v)?v:0)/globalMax, COLORS[k], TITLES[k], v);
+  }
   drawMiniChart(i);
 
   if(playing){
@@ -204,11 +267,11 @@ function draw(){
 /* ========== Drawing helpers ========== */
 function computeCupLayout(){
   cups=[];
-  const m=24;
-  const cupW=(W-m*4)/3;        // 3 cups
-  const cupH=H*0.52;
-  const top=80;
-  for(let i=0;i<3;i++){ cups.push({x:m+i*(cupW+m),y:top,w:cupW,h:cupH}); }
+  const m=16;
+  const cupW=(W - m*5)/4;   // 4 cups
+  const cupH=H*0.50;
+  const top=84;
+  for(let i=0;i<4;i++){ cups.push({x:m+i*(cupW+m),y:top,w:cupW,h:cupH}); }
 }
 function drawHeader(){
   fill('#9fb1d9');noStroke();textSize(14);
@@ -217,17 +280,20 @@ function drawHeader(){
 }
 function drawCup(box,pct,col,title,val){
   noStroke();fill(PANEL);rect(box.x,box.y,box.w,box.h,14);
-  const pad=18,gx=box.x+pad,gy=box.y+pad;const gw=box.w-pad*2,gh=box.h-60;
-  stroke(RIM);strokeWeight(2);noFill();rect(gx,gy,gw,gh,18);
+  const pad=16,gx=box.x+pad,gy=box.y+pad;const gw=box.w-pad*2,gh=box.h-58;
+  stroke(RIM);strokeWeight(2);noFill();rect(gx,gy,gw,gh,16);
   const level=gh*pct;const waterTop=gy+gh-level;
-  noStroke();fill(col);rect(gx+2,waterTop,gw-4,level,16);
-  fill('#cfe0ff');noStroke();textAlign(LEFT,BASELINE);textSize(15);
-  text(title,gx,box.y+box.h-28);
-  textAlign(RIGHT,BASELINE);fill('#9fb1d9');text(val.toFixed(0)+" Mft³",gx+gw,box.y+box.h-28);
+  noStroke();fill(col);rect(gx+2,waterTop,gw-4,level,14);
+  // labels
+  fill('#cfe0ff');noStroke();textAlign(LEFT,BASELINE);textSize(14);
+  text(title,gx,box.y+box.h-26);
+  textAlign(RIGHT,BASELINE);fill('#9fb1d9');
+  const txt = Number.isFinite(val) ? val.toFixed(0)+" Mft³" : "—";
+  text(txt,gx+gw,box.y+box.h-26);
 }
 
 function drawMiniChart(i){
-  const left=60,right=W-24,bottom=H-30,top=H-170;
+  const left=60,right=W-24,bottom=H-26,top=H-170;
 
   // Frame
   stroke(GRID);noFill();rect(left,top,right-left,bottom-top);
@@ -242,10 +308,11 @@ function drawMiniChart(i){
     noStroke();text(val.toFixed(0),left-8,y);
   }
 
-  // Lines (Highest, Current, Lowest)
-  const names=['highest','current','lowest'];
+  // Lines (Highest, Current, Lowest, mean)
+  const names=['highest','mean','current','lowest'];
   for(let n=0;n<names.length;n++){
     const arr=raw[names[n]];
+    if(!arr || !arr.length) continue;
     stroke(COLORS[n]);noFill();beginShape();
     for(let d=0;d<arr.length;d++){
       const x=map(d,0,arr.length-1,left+4,right-4);
