@@ -63,6 +63,7 @@ B.S. in Aeronautics and Astronautics, 2014, Stanford University
 
 # 📢 Publications
 
+* Chausse, Rebecca, Daniel Andersen, Caitlin N. Howarth, Olivia Mooney, Danielle N. Poole, Nathaniel A. Raymond, Hannah Kerner, Ana María Tárano, Inbal Becker-Reshef. “The Impact of Systematic Razing of Agricultural Communities around El-Fasher: A Remote Sensing Study.” 10 March 2026, Humanitarian Research Lab at Yale School of Public Health: New Haven. Available at [https://medicine.yale.edu/lab/khoshnood/publications/reports](https://files-profile.medicine.yale.edu/documents/0667d53f-af67-415c-99ce-bd9b2f32bc0e).
 * Bakker, A. C., Gleason, A., Dempsey, A., Bachman, S., Burdick, D., Tárano, ; A. M., Chirayath, V., Purkis, S. (2024). [Remotely Sensed Spectral Variability Predicts Reef Fish Diversity](https://www.sciencedirect.com/science/article/pii/S1470160X24012809). Ecological Indicators, 169, 112823.
 * _Interactive AI "Performance"_: Newsome, R. (Lead Artist), Symons, J. (Producer), & Tárano, A.M. (Project Manager). (2024, January). [Being (The Digital Griot)](https://festival.sundance.org/program/film/656e092aa0d82d9a2eabf6ef). Sundance Film Festival's New Frontier section. Park City; Utah. 
 * _Interactive AI "Performance"_: Newsome, R. (Lead Artist), Symons, J. (Documentary Producer), & Tárano, A.M. (Project Manager). (2022, February-March). [Being (The Digital Griot)](https://www.armoryonpark.org/index.php/programs_events/detail/assembly). Assembly at Park Avenue Armory. New York; New York. 
