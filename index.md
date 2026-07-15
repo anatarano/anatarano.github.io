@@ -10,11 +10,7 @@ Tárano received her Ph.D. in Aeronautics and Astronautics from Stanford Univers
 
 ## Promptable GeoAI for Food Security in Conflict Zones
 
-<span style="color:#35514F">
-June 2026
-</span>
-
-An ASU-led project funded by the [Taylor Geospatial GIFS Challenge](https://taylorgeospatial.org/), developing open-source AI tools that allow humanitarian organizations to query satellite imagery in plain language to identify early warning signs of food insecurity in conflict-affected regions. Partners include the University of Maryland, Washington University in St. Louis, NASA Harvest, and FEWS NET. Test regions include Sudan, Ukraine, Syria, and Haiti.
+Funded by the [Taylor Geospatial GIFS Challenge](https://taylorgeospatial.org/), we are developing open-source AI tools that allow humanitarian organizations to query satellite imagery in plain language to identify early warning signs of food insecurity in conflict-affected regions. Partners include the University of Maryland, Washington University in St. Louis, NASA Harvest, NASA Goddard, and FEWS NET. Test regions include Sudan, Ukraine, Syria, and Haiti.
 
 [📰 ASU News: ASU-led AI project aims to help humanitarian organizations identify food security risks in conflict zones](https://news.asu.edu/b/20260623-asuled-ai-project-aims-help-humanitarian-organizations-identify-food-security-risks)
 
@@ -32,11 +28,11 @@ An open-source AI framework in partnership with WRI for automatically delineatin
 
 ## Maui Nui Crop Monitor
 
-[📰 ASU Engineering: Harvesting Satellite Insights for Maui County Farmers](https://news.engineering.asu.edu/2024/12/harvesting-satellite-insights-for-maui-county-farmers/)
-
 [🌧️ Kona Lows Support](https://nasaacres.github.io/kona-lows-2026)
 
 [📧 Maui Nui Crop Monitor Email Archive](https://us13.campaign-archive.com/home/?u=de2a137d36d49d49f7925fcf0&id=cab3fc37cf)
+
+[📰 ASU Engineering: Harvesting Satellite Insights for Maui County Farmers](https://news.engineering.asu.edu/2024/12/harvesting-satellite-insights-for-maui-county-farmers/)
 
 ## Environmental Data Science Innovation and Inclusion Lab: Data Short Course 2024 [🔗](https://cu-esiil-edu.github.io/2024-data-short-course/)
 <span style="color:#35514F">
