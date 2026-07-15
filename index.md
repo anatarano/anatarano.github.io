@@ -52,8 +52,9 @@ B.S. in Aeronautics and Astronautics, 2014, Stanford University
 
 ---
 
-# 💼 Previous Work
+# 💼 Work Experience
 
+* Assistant Research Professor, Arizona State University, 07/2024–present
 * Senior Research Associate III, University of Miami, 06/2022-01/2024
 * Project Manager, Stanford University’s Institute for Human-Centered Artificial Intelligence, 11/2021-06/2022
 * Research Associate, Science and Technology Corporation at NASA Ames, 06/2016-08/2020
@@ -66,12 +67,12 @@ B.S. in Aeronautics and Astronautics, 2014, Stanford University
 * Muhawenayo G, Robinson C, Khanal S, Fang Z, Corley I, Wollam A, Gao T, Strnad L, Avery R, Estes L, Tárano AM, Jacobs N, Kerner H. 2026. PRUE: A Practical Recipe for Field Boundary Segmentation at Scale. In: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). [https://arxiv.org/pdf/2603.27101](https://arxiv.org/pdf/2603.27101)
 * Chausse, Rebecca, Daniel Andersen, Caitlin N. Howarth, Olivia Mooney, Danielle N. Poole, Nathaniel A. Raymond, Hannah Kerner, Ana María Tárano, Inbal Becker-Reshef. “The Impact of Systematic Razing of Agricultural Communities around El-Fasher: A Remote Sensing Study.” 10 March 2026, Humanitarian Research Lab at Yale School of Public Health: New Haven. Available at [https://medicine.yale.edu/lab/khoshnood/publications/reports](https://files-profile.medicine.yale.edu/documents/0667d53f-af67-415c-99ce-bd9b2f32bc0e).
 * Nakalembe, C., Zvonkov, I., Kerner, H. et al. Helmets Labeling Crops: Kenya Crop Type Dataset Created via Helmet-Mounted Cameras and Deep Learning. Sci Data 12, 1496 (2025). [https://doi.org/10.1038/s41597-025-05762-7](https://doi.org/10.1038/s41597-025-05762-7).
-* Bakker, A. C., Gleason, A., Dempsey, A., Bachman, S., Burdick, D., Tárano, ; A. M., Chirayath, V., Purkis, S. (2024). [Remotely Sensed Spectral Variability Predicts Reef Fish Diversity](https://www.sciencedirect.com/science/article/pii/S1470160X24012809). Ecological Indicators, 169, 112823.
+* Bakker, A. C., Gleason, A., Dempsey, A., Bachman, S., Burdick, D., Tárano, A. M., Chirayath, V., Purkis, S. (2024). [Remotely Sensed Spectral Variability Predicts Reef Fish Diversity](https://www.sciencedirect.com/science/article/pii/S1470160X24012809). Ecological Indicators, 169, 112823.
 * _Interactive AI "Performance"_: Newsome, R. (Lead Artist), Symons, J. (Producer), & Tárano, A.M. (Project Manager). (2024, January). [Being (The Digital Griot)](https://festival.sundance.org/program/film/656e092aa0d82d9a2eabf6ef). Sundance Film Festival's New Frontier section. Park City; Utah. 
 * _Interactive AI "Performance"_: Newsome, R. (Lead Artist), Symons, J. (Documentary Producer), & Tárano, A.M. (Project Manager). (2022, February-March). [Being (The Digital Griot)](https://www.armoryonpark.org/index.php/programs_events/detail/assembly). Assembly at Park Avenue Armory. New York; New York. 
 * Tárano, A. M. (2020). [Automated Inference of Impacting Asteroids' Physical Properties and Motion](https://www.proquest.com/openview/365b15727ac4c0d5ca6c5f3c89b3df9d/1?pq-origsite=gscholar&cbl=18750&diss=y). Stanford University.
 * Tárano, A. M., Wheeler, L. F., Close, S., & Mathias, D. L. (2019). [Inference of meteoroid characteristics using a genetic algorithm](https://www.sciencedirect.com/science/article/pii/S0019103518305669). Icarus, 329, 270-281.
-* Aftosmis, M. J., Mathias, D. L., & Tarano, A. M. (2019). [Simulation-based height of burst map for asteroid airburst damage prediction](https://www.sciencedirect.com/science/article/pii/S0094576517315229). Acta Astronautica, 156, 278-283.
+* Aftosmis, M. J., Mathias, D. L., & Tárano, A. M. (2019). [Simulation-based height of burst map for asteroid airburst damage prediction](https://www.sciencedirect.com/science/article/pii/S0094576517315229). Acta Astronautica, 156, 278-283.
   
 --- 
 
