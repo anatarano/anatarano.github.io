@@ -7,6 +7,19 @@ Tárano received her Ph.D. in Aeronautics and Astronautics from Stanford Univers
 ---
 
 # 📰 Recent Projects
+
+## Promptable GeoAI for Food Security in Conflict Zones
+
+<span style="color:#35514F">
+June 2026
+</span>
+
+An ASU-led project funded by the [Taylor Geospatial GIFS Challenge](https://taylorgeospatial.org/), developing open-source AI tools that allow humanitarian organizations to query satellite imagery in plain language to identify early warning signs of food insecurity in conflict-affected regions. Partners include the University of Maryland, Washington University in St. Louis, NASA Harvest, and FEWS NET. Test regions include Sudan, Ukraine, Syria, and Haiti.
+
+[📰 ASU News: ASU-led AI project aims to help humanitarian organizations identify food security risks in conflict zones](https://news.asu.edu/b/20260623-asuled-ai-project-aims-help-humanitarian-organizations-identify-food-security-risks)
+
+[📰 Devex: How geospatial AI is helping aid groups predict famine and deliver food](https://www.devex.com/news/how-geospatial-ai-is-helping-aid-groups-predict-famine-and-deliver-food-112935)
+
 ## Maui Nui Crop Monitor
 [💧 Drought Issue (Part 1)](maui_nui_crop_monitor/june_issue.html)
 
@@ -18,6 +31,16 @@ Tárano received her Ph.D. in Aeronautics and Astronautics from Stanford Univers
 
 [🌱 Soil Moisture Issue](maui_nui_crop_monitor/nov_issue.html)
           
+## Trazo: Field Boundary Detection in South America
+
+[🗺️ Trazo: Tracing fields, tracing commodities](https://wri.github.io/trazo/landing/)
+
+An open-source AI framework in partnership with WRI for automatically delineating agricultural field boundaries from satellite imagery across South America. The first release maps nearly 11 million field boundaries across 17 soy-producing ecoregions, supporting supply chain traceability and deforestation monitoring.
+
+[📄 Field Boundaries of South America: WRI Technical Note](https://www.wri.org/research/field-boundaries-south-america)
+
+[🌾 Blog Post: Why Accurately Mapping Crop Field Boundaries is Essential for Sustainable Supply Chains](https://landcarbonlab.org/insights/mapping-crop-field-boundaries/)
+
 ## Environmental Data Science Innovation and Inclusion Lab: Data Short Course 2024 [🔗](https://cu-esiil-edu.github.io/2024-data-short-course/)
 <span style="color:#35514F">
 April - June 2024
@@ -64,6 +87,7 @@ B.S. in Aeronautics and Astronautics, 2014, Stanford University
 
 # 📢 Publications
 
+* Grupp, T., Elmustafa, A., Zvonkov, I., Tárano, A. M., Jupiter, J., Esipova, E., Blevins, H., Nguyen, C., Tenorio Fenton, S., Winchester, C., Stolle, F., Rognstad, R., & Kerner, H. (2026). [Field Boundaries of South America](https://www.wri.org/research/field-boundaries-south-america). World Resources Institute Technical Note. https://doi.org/10.46830/writn.25.00033
 * Muhawenayo G, Robinson C, Khanal S, Fang Z, Corley I, Wollam A, Gao T, Strnad L, Avery R, Estes L, Tárano AM, Jacobs N, Kerner H. 2026. PRUE: A Practical Recipe for Field Boundary Segmentation at Scale. In: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). [https://arxiv.org/pdf/2603.27101](https://arxiv.org/pdf/2603.27101)
 * Chausse, Rebecca, Daniel Andersen, Caitlin N. Howarth, Olivia Mooney, Danielle N. Poole, Nathaniel A. Raymond, Hannah Kerner, Ana María Tárano, Inbal Becker-Reshef. “The Impact of Systematic Razing of Agricultural Communities around El-Fasher: A Remote Sensing Study.” 10 March 2026, Humanitarian Research Lab at Yale School of Public Health: New Haven. Available at [https://medicine.yale.edu/lab/khoshnood/publications/reports](https://files-profile.medicine.yale.edu/documents/0667d53f-af67-415c-99ce-bd9b2f32bc0e).
 * Nakalembe, C., Zvonkov, I., Kerner, H. et al. Helmets Labeling Crops: Kenya Crop Type Dataset Created via Helmet-Mounted Cameras and Deep Learning. Sci Data 12, 1496 (2025). [https://doi.org/10.1038/s41597-025-05762-7](https://doi.org/10.1038/s41597-025-05762-7).
