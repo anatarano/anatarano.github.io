@@ -19,17 +19,6 @@ An ASU-led project funded by the [Taylor Geospatial GIFS Challenge](https://tayl
 [📰 ASU News: ASU-led AI project aims to help humanitarian organizations identify food security risks in conflict zones](https://news.asu.edu/b/20260623-asuled-ai-project-aims-help-humanitarian-organizations-identify-food-security-risks)
 
 [📰 Devex: How geospatial AI is helping aid groups predict famine and deliver food](https://www.devex.com/news/how-geospatial-ai-is-helping-aid-groups-predict-famine-and-deliver-food-112935)
-
-## Maui Nui Crop Monitor
-[💧 Drought Issue (Part 1)](maui_nui_crop_monitor/june_issue.html)
-
-[🦌 Deer Issue!](maui_nui_crop_monitor/march_issue.html)
-
-[🌧️ January Storm Impacts Issue](maui_nui_crop_monitor/feb_issue.html)
-
-[🌧️ Welehu Rainfall Issue](maui_nui_crop_monitor/dec_issue.html)
-
-[🌱 Soil Moisture Issue](maui_nui_crop_monitor/nov_issue.html)
           
 ## Trazo: Field Boundary Detection in South America
 
@@ -40,6 +29,14 @@ An open-source AI framework in partnership with WRI for automatically delineatin
 [📄 Field Boundaries of South America: WRI Technical Note](https://www.wri.org/research/field-boundaries-south-america)
 
 [🌾 Blog Post: Why Accurately Mapping Crop Field Boundaries is Essential for Sustainable Supply Chains](https://landcarbonlab.org/insights/mapping-crop-field-boundaries/)
+
+## Maui Nui Crop Monitor
+
+[📰 ASU Engineering: Harvesting Satellite Insights for Maui County Farmers](https://news.engineering.asu.edu/2024/12/harvesting-satellite-insights-for-maui-county-farmers/)
+
+[🌧️ Kona Lows Support](https://nasaacres.github.io/kona-lows-2026)
+
+[📧 Maui Nui Crop Monitor Email Archive](https://us13.campaign-archive.com/home/?u=de2a137d36d49d49f7925fcf0&id=cab3fc37cf)
 
 ## Environmental Data Science Innovation and Inclusion Lab: Data Short Course 2024 [🔗](https://cu-esiil-edu.github.io/2024-data-short-course/)
 <span style="color:#35514F">
