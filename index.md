@@ -28,11 +28,22 @@ An open-source AI framework in partnership with WRI for automatically delineatin
 
 ## Maui Nui Crop Monitor
 
-[🌧️ Kona Lows Support](https://nasaacres.github.io/kona-lows-2026)
+The **Maui Nui Crop Monitor** is a collaborative effort that translates satellite observations into practical information for farmers, ranchers, natural resource managers, and community partners across Maui County. Originally developed to monitor agricultural conditions, the project has expanded to support wildfire recovery, drought monitoring, and disaster response following extreme weather events.
 
-[📧 Maui Nui Crop Monitor Email Archive](https://us13.campaign-archive.com/home/?u=de2a137d36d49d49f7925fcf0&id=cab3fc37cf)
+By combining Earth observation data with local knowledge, we provide timely geospatial products that help communities understand changing landscape conditions and make informed management decisions.
 
-[📰 ASU Engineering: Harvesting Satellite Insights for Maui County Farmers](https://news.engineering.asu.edu/2024/12/harvesting-satellite-insights-for-maui-county-farmers/)
+### 🌟 Recent Highlights
+
+#### 🌿 [Vegetation Condition Index (VCI) App](https://ee-anatarano.projects.earthengine.app/view/vcimauinui) <!-- replace with your VCI app URL -->
+The VCI app provides monthly maps of vegetation health, precipitation anomalies, and streamflow conditions across Maui County within a historical context. The app helps farmers, ranchers, and land managers monitor drought impacts, track ecosystem recovery, and make informed decisions that support resilient landscapes and watershed stewardship.
+
+#### 🌊 [Kona Low Flood Mapping](https://nasaacres.github.io/kona-lows-2026)
+Following the 2026 Kona Low storms, we developed rapid satellite-based flood extent maps and an interactive web application to document flood impacts across Maui County. Beyond emergency response, these tools help communities identify where landscapes failed to absorb water and where restoration, revegetation, and green infrastructure can better slow and infiltrate runoff in future events. Visit our **[Kona Lows Support](https://nasaacres.github.io/kona-lows-2026)** page to explore the flood maps, resource hub, and satellite-derived products.
+
+### 📰 Learn More
+
+- 📧 **[Maui Nui Crop Monitor Email Archive](https://us13.campaign-archive.com/home/?u=de2a137d36d49d49f7925fcf0&id=cab3fc37cf)** — Monthly newsletters featuring drought updates, satellite-derived products, and community resources.
+- 📰 **[ASU Engineering: Harvesting Satellite Insights for Maui County Farmers](https://news.engineering.asu.edu/2024/12/harvesting-satellite-insights-for-maui-county-farmers/)** — Learn more about the Maui Nui Crop Monitor and how Earth observations are supporting agricultural resilience across Maui County.
 
 ## Environmental Data Science Innovation and Inclusion Lab: Data Short Course 2024 [🔗](https://cu-esiil-edu.github.io/2024-data-short-course/)
 <span style="color:#35514F">
