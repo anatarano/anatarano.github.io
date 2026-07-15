@@ -8,13 +8,19 @@ Tárano received her Ph.D. in Aeronautics and Astronautics from Stanford Univers
 
 # 📰 Recent Projects
 
-## Promptable GeoAI for Food Security in Conflict Zones
+## Humanitarian Food Security
+
+### Promptable GeoAI for Food Security in Conflict Zones
 
 Funded by the [Taylor Geospatial GIFS Challenge](https://taylorgeospatial.org/), we are developing open-source AI tools that allow humanitarian organizations to query satellite imagery in plain language to identify early warning signs of food insecurity in conflict-affected regions. Partners include the University of Maryland, Washington University in St. Louis, NASA Harvest, NASA Goddard, and FEWS NET. Test regions include Sudan, Ukraine, Syria, and Haiti.
 
 [📰 ASU News: ASU-led AI project aims to help humanitarian organizations identify food security risks in conflict zones](https://news.asu.edu/b/20260623-asuled-ai-project-aims-help-humanitarian-organizations-identify-food-security-risks)
 
 [📰 Devex: How geospatial AI is helping aid groups predict famine and deliver food](https://www.devex.com/news/how-geospatial-ai-is-helping-aid-groups-predict-famine-and-deliver-food-112935)
+
+### Other Updates
+
+[📄 NASA Lifelines Humanitarian Decision-Making for Food Security (Report)](https://nasalifelines.org/wp-content/uploads/2026/07/Humanitarian_DecisionMaking_FoodSecurity.pdf)
           
 ## Trazo: Field Boundary Detection in South America
 
